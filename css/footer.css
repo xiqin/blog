@@ -1,0 +1,7 @@
+/*footer*/
+footer {
+    border-top: 1px solid #ddd;
+    position: relative;
+    width: 100%; clear: both; text-align: center;
+}
+footer .ft-copyright { margin:5px auto;line-height: 24px; }

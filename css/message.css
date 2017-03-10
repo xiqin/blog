@@ -1,0 +1,31 @@
+body{
+	margin:0;padding:0;
+	font-family: 'Microsoft Yahei', 'Simsun';
+	background-color: #F8F8F8;
+
+}
+#msg_main{
+	width: 100%;
+	height: auto;
+	margin: auto;
+}
+#msg_main .messgae{
+	width: 100%;
+	height: 200px;
+	border: 1px solid #eee;
+
+}
+.messgae .msg_top{
+	width: 100%;
+	height: 30px;
+	background: #c6c6c6;
+}
+.addmsg{
+	font-size: 16px;
+}
+.col-md-8{
+	margin-bottom: 50px;
+	background-color: #fff;
+	padding-top: 90px;
+	padding-bottom: 50px;
+	border: 1px solid #EAE9E9;}

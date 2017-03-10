@@ -1,0 +1,19 @@
+.search_ab li{ display: inline-block;margin-right:10px;}
+.search_con{ margin-top: 30px;margin-bottom: 100px;}
+.search_retit label{  color:red;margin: 0 5px;}
+.search_res{ margin-top: 20px;font-size: 15px;}
+.search_res ul li{margin-bottom: 30px;}
+.search_tit a{ color:#0053BD;font-weight: 500;text-decoration: underline;}
+.search_res ul li p{color: #000;}
+.search_res p a{color: #00cd66;font-size: 14px;}
+.search_res p label.mm{font-size: 13px;font-weight: 400;margin-left: 20px;}
+
+.search_no{margin-top: 90px;margin-bottom: 90px;border-left: 1px solid #ddd;padding: 20px 0 20px 10px;}
+.search_no a{color:#0035D0;text-decoration: underline;}
+
+#page{text-align:center;margin-top:40px; margin-bottom:40px;}
+#page a{border: 1px solid #aaaadd;text-decoration: none;padding:2px 5px;margin:2px;}
+#page span.nowpage{background: #89C5D0;color:#fff;padding:4px 8px;margin:3px;font-weight: bold;}
+#page span.hid{border: 1px solid #eee;color: #aaa;padding:2px 5px;margin:2px;}
+#page form{display: inline;}
+

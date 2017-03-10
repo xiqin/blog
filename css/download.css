@@ -1,0 +1,108 @@
+*{ margin: 0; padding: 0 ;}
+body{
+    font: 13px/1.5 'Microsoft Yahei', 'Simsun';
+    color: #666666;
+    background: #F8F8F8;
+    padding-top: 90px;
+}
+/*导航*/
+.navbar{
+    border-radius: 0;
+    background-color: #000;opacity: 0.7;
+}
+.navbar-inverse .navbar-brand{color:#ffffff;}
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .open > a:hover,
+.navbar-inverse .navbar-nav > .open > a:focus {
+    color: #fff;
+}
+.navbar-collapse{background-color: #000000;color:#ffffff;}
+.navbar-nav { float:right;}
+.navbar-inverse .navbar-nav > li > a{color:#ffffff;}
+.navbar-inverse .navbar-nav > li > a:hover{color:#ff2222;}
+.navbar-inverse .navbar-nav > .active > a{color:#ff2222;}
+
+/*左边按钮*/
+.col-md-2 ul li {
+    list-style: none;
+    padding: 10px 0;
+}
+.btn-lg, .btn-group-lg > .btn{
+    font-size: 15px;
+}
+/*右侧内容框*/
+#box{
+    width: 100%;
+}
+.share_box{
+    display: inline-block;
+    background-color: #fff;
+    border: 1px solid #bebec4;
+    color: #666;
+    font-size: 12px;
+    margin: 5px;
+    width: 100%;
+    box-shadow: 0 1px 3px rgba(0,0,0,.3);
+    transform: rotateX(82deg) rotateZ(15deg);
+    position: absolute;
+}
+@media screen and (min-width: 550px) {
+    .share_box{
+        display: inline-block;
+        background-color: #fff;
+        border: 1px solid #bebec4;
+        color: #666;
+        font-size: 12px;
+        margin: 5px;
+        width: 48%;
+        box-shadow: 0 1px 3px rgba(0,0,0,.3);
+        transform: rotateX(82deg) rotateZ(15deg);
+        position: absolute;
+    }
+}
+@media screen and (min-width: 768px) {
+    .share_box{
+        display: inline-block;
+        background-color: #fff;
+        border: 1px solid #bebec4;
+        color: #666;
+        font-size: 12px;
+        margin: 5px;
+        width: 23.5%;
+        box-shadow: 0 1px 3px rgba(0,0,0,.3);
+        transform: rotateX(82deg) rotateZ(15deg);
+        position: absolute;
+    }
+}
+.share_box:hover{cursor:pointer;}
+.share_content{
+    width: 100%;min-height: 200px;overflow-y:hidden;padding: 3px 5px;
+}
+.share_bottom{
+    width: 100%;height: 50px;background: #F7F6F9;
+}
+.share_bottom img{
+    width: 20px;height: 20px;
+}
+.share_bottom span{
+    position:absolute;
+    margin: -15px 0 0 25px;
+}
+.share_bottom label{
+    float: right;font-weight: 400;margin: -15px 5px 0 5px;
+}
+.share_bottom_down a{float: right;right: 5px;margin-top:5px;position: absolute;}
+
+
+.share_shadow{
+    display: inline-block;
+    background-color: #000;
+    position: absolute;
+    z-index: 10;
+    opacity: 0;
+    width: 500px;height: 500px;
+    cursor: pointer;
+}
+
+.code{display: none;}
+.software{display: none;}
